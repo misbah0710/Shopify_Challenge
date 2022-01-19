@@ -1,4 +1,5 @@
-a.How many orders were shipped by Speedy Express in total?
+A.How many orders were shipped by Speedy Express in total?
+Answer: 54
 
 Query:
 SELECT 
@@ -10,9 +11,8 @@ Shippers s ON o.ShipperID = S.ShipperID
 WHERE 
 ShipperName = 'Speedy Express';
 
-Answer: 54
-
-b.What is the last name of the employee with the most orders?
+B. What is the last name of the employee with the most orders?
+Answer:PEACOCK
 
 Query:
 SELECT 
@@ -27,9 +27,9 @@ ORDER BY No_of_orders
 DESC
 LIMIT 1
 
-Answer:Peacock
 
-c.What product was ordered the most by customers in Germany?
+C.What product was ordered the most by customers in Germany?
+Answer: BOSTON CRAB MEAT
 
 Query:
 SELECT 
@@ -50,5 +50,3 @@ GROUP BY p.ProductName
 ORDER BY Total_Quantity 
 DESC 
 LIMIT 1
-
-Answer: Boston Crab Meat
