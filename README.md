@@ -1,6 +1,6 @@
 # Shopify_Challenge
 
-PLease open the Shopify_cahllenge folder
+PLease open the Shopify challenge folder
 
 For Answer 1: Please refer to Shopify_Challenge1.pynb file in question 1 folder.
 
